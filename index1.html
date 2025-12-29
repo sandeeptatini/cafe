@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: black;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 25px;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        .header {
+            background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+            height: 90vh;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin-top: 50px;
+        }
+
+        .header h1 {
+            font-size: 90px;
+            text-align: center;
+            font-weight: normal;
+        }
+        .section {
+            padding: 80px 60px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .about {
+            background-color: #f7f1e8;
+        }
+
+        .menu {
+            background-color: white;
+        }
+
+        .where {
+            background-color: #eee;
+        }
+
+        h2 {
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#menu">MENU</a>
+        <a href="#where">WHERE</a>
+    </div>
+    <div class="header" id="home">
+        <h1>the<br>Cafe</h1>
+    </div>
+    <div class="section about" id="about">
+        <h2>ABOUT THE CAFE</h2>
+        <p>
+            The Cafe was founded to serve fresh coffee and homemade food
+            in a calm and friendly environment. Quality and taste are our
+            top priorities.
+        </p>
+        <p>
+            Owner & Chef: Liam Brown
+        </p>
+    </div>
+    <div class="section menu" id="menu">
+        <h2>THE MENU</h2>
+        <p><b>Bread Basket</b> – Fresh baked breads and muffins</p>
+        <p><b>Belgian Waffle</b> – Served with fruits and syrup</p>
+        <p><b>Cold Coffee</b> – Chilled and refreshing</p>
+        <p><b>Hot Coffee</b> – Rich and strong</p>
+        <p><b>Tea</b> – Classic Indian tea</p>
+    </div>
+    <div class="section where" id="where">
+        <h2>WHERE TO FIND US</h2>
+        <p>
+            15, MG Road, Bengaluru, Karnataka
+        </p>
+    </div>
+    <div class="footer">
+        <p>Powered by HTML & CSS</p>
+    </div>
+
+</body>
+</html>
